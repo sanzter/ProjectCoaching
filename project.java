@@ -15,7 +15,7 @@ public class project {
         int pilihan;
 
         do {
-            System.out.println("\n--- Peter King's Cake ---");
+            System.out.println("\n--- Toko Kue Bersama ---");
             System.out.println("1. Tambah Data");
             System.out.println("2. Tampilkan Data");
             System.out.println("3. Ubah Data");
@@ -35,7 +35,7 @@ public class project {
         } while (pilihan != 5);
     }
 
-    // CREATE
+    // Menambahkah Data
     static void tambahData() throws IOException {
         for (int i = 0; i < nama.length; i++) {
             if (nama[i] == null) {
@@ -63,7 +63,7 @@ public class project {
         }
     }
 
-    // UPDATE
+    // Memperbarui Data
     static void ubahData() throws IOException {
         tampilData();
         System.out.print("Pilih nomor data yang diubah: ");
@@ -81,7 +81,7 @@ public class project {
         }
     }
 
-    // DELETE
+    // Menghapus Data
     static void hapusData() throws IOException {
         tampilData();
         System.out.print("Pilih nomor data yang dihapus: ");
