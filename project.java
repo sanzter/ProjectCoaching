@@ -56,8 +56,8 @@ public class project {
         System.out.println("\n--- Data Pesanan ---");
         for (int i = 0; i < nama.length; i++) {
             if (nama[i] != null) {
-                System.out.println((i + 1) + ". " + nama[i].toUpperCase()
-                        + "Jumlah: " + jumlah[i]
+                System.out.println((i + 1) + ". " + nama[i].equalsIgnoreCase()
+                        + "\nJumlah\n: " + jumlah[i]
                         + "Total: " + total[i]);
             }
         }
