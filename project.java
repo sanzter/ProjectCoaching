@@ -15,7 +15,7 @@ public class project {
         int pilihan;
 
         do {
-            System.out.println("\n--- Toko Kue Bersama ---");
+            System.out.println("\n--- Pemesan Kue Toko Kue Sejahtera ---");
             System.out.println("1. Tambah Data");
             System.out.println("2. Tampilkan Data");
             System.out.println("3. Ubah Data");
@@ -56,9 +56,9 @@ public class project {
         System.out.println("\n--- Data Pesanan ---");
         for (int i = 0; i < nama.length; i++) {
             if (nama[i] != null) {
-                System.out.println((i + 1) + ". " + nama[i].equalsIgnoreCase()
-                        + "\nJumlah\n: " + jumlah[i]
-                        + "Total: " + total[i]);
+                System.out.println((i + 1) + ". " + nama[i]
+                        + " | Jumlah: " + jumlah[i]
+                        + " | Total: Rp." + total[i]);
             }
         }
     }
