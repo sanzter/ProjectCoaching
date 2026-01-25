@@ -1,4 +1,4 @@
-Pemesanan Kue Pada Toku Kue Sejahtera
+Pemesanan Kue Pada Toko Kue Sejahtera
 
 Project ini bertujuan agar pemesan dapat memesan kue secara online maupun aplikasi offline berbasis CLI
 
