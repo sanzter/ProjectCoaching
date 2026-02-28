@@ -11,7 +11,7 @@ Project ini bertujuan agar pemesan dapat memesan kue secara online maupun aplika
 *VIA VSCode*
 1. Buka VSCode, buat satu folder untuk menyimpan atau untuk copy repository ini.
 2. Buka terminal di VSCode nya lalu ketikan 
-"git clone https://github.com/sanzter/ProjectCoaching/blob/main/project.java".
+"git clone https://github.com/sanzter/ProjectCoaching.git".
 3. Tunggu hingga proses copy nya selesai, file sudah siap di run.
 
 *Important Notes*
