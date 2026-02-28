@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 
 public class project {
 
+    // Deklarasi Variable
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     static String[] nama = new String[3];
